@@ -1,0 +1,19 @@
+{
+  "name": "nft_workshop",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "scripts": {
+    "wallet": "ts-node ./wallet.ts",
+    "app": "ts-node ./app.ts",
+    "transfer": "ts-node ./transfer.ts",
+    "enroll": "ts-node ./enroll.ts",
+    "decode": "ts-node ./decode.ts"
+  },
+  "dependencies": {
+    "@metaplex-foundation/js": "^0.17.6",
+    "@solana/web3.js": "^1.91.4",
+    "ts-node": "^10.9.2",
+    "typescript": "^5.4.4"
+  }
+}
