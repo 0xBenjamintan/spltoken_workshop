@@ -25,6 +25,7 @@ const METAPLEX = Metaplex.make(SOLANA_CONNECTION)
     })
   );
 
+//CONFIGURATION. feel free to change the values
 const CONFIG = {
   uploadPath: "uploads/",
   imgFileName: "image.png",
