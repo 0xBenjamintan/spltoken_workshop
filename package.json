@@ -6,8 +6,7 @@
   "scripts": {
     "wallet": "ts-node ./wallet.ts",
     "app": "ts-node ./app.ts",
-    "transfer": "ts-node ./transfer.ts",
-    "enroll": "ts-node ./enroll.ts",
+    "airdrop": "ts-node ./airdrop.ts",
     "decode": "ts-node ./decode.ts"
   },
   "dependencies": {
